@@ -1,0 +1,11 @@
+.column--capacity{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.capacity__drop{
+    flex: 1;
+    border: 1px solid #6CB9AA;
+    margin-top: 15px;
+    border-radius: 4px;
+}

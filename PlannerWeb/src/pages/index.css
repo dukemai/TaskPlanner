@@ -1,0 +1,19 @@
+.page{
+    padding: 25px 35px;
+}
+.page--home{
+    display: flex;
+    height: 100%;
+}
+
+.column--tasks{
+    flex-basis: 50%;
+}
+
+.column--capacity{
+    flex: 1;
+}
+
+.column__title{
+    margin: 0;
+}
