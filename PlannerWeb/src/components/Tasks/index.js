@@ -11,9 +11,14 @@ const defaultProps = {
 
 const Tasks = ({ }) => (
     <div className="column column--tasks">
-      <h4 className="column__title">
-        Tasks
-      </h4>
+      <div className="column__header">
+        <h4 className="column__title">
+          Tasks
+        </h4>
+        <button className="column__add">
+          Add
+        </button>  
+      </div>
       <section className="tasks">
         <TaskItem />
         <TaskItem />
